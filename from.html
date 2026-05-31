@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>IIT-JEE APPLICATION FORM</legend>
+        <form></form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <form>
+                <label for="sname">name</label>
+                <input id="sname" placeholder="enter your name" required type="text">
+                <br><br><label for="sno">mobile no:</label>
+                <input id="sno" placeholder="enter your mobile number" required type="number">
+                <br><br>
+                <label for="email">email id </label>
+                <input id="email" placeholder="enter your eamil" type="email">
+                <br><br><label for="pw">password</label>
+                <input id="pw" placeholder="enter your password" type="password">
+                <br><br><label>gender :</label>
+                <input type="radio" id="male" value="male" name="gender">
+                <label for="male">male</label>
+                <input type="radio" id="female" value="male" name="gender">
+                <label for="female">female</label>
+                <input type="radio" id="other" value="male" name="gender">
+                <label for="other">other</label>
+
+                <br><br>
+                <label for="DOB ">DOB :</label>
+                <input type="date" min="11-12-2006" max="31-03-2026">
+                <!-- shayd kaam nhi kar rha -->
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>other info</legend>
+            <form></form>
+            <br>
+            <label for="schname"> school name</label>
+            <input id="schname" placeholder="enter your school name" required type="text">
+            <br><br>
+            <label for="board">select your board </label>
+            <select>
+                <option value="" disabled selected name="board"> select your board</option>
+                <option value="mp" name="board"> mp board</option>
+                <option value="up" name="board"> up board</option>
+                <option value="cg" name="board"> cg board</option>
+                <option value="uk" name="board"> uk board</option>
+
+                <br><br>
+            </select>
+            <br><br>
+            <label for="yop">choose your exam centre</label>
+            <select>
+                <option value="" disabled selected name="">exam centre </option>
+                <option value="bhopal" name="yop"> bhopal</option>
+                <option value="satna" name="yop"> satna</option>
+                <option value="rewa" name="yop"> rewa</option>
+                <option value="ujjain" name="yop"> ujaain</option>
+
+
+            </select>
+            <br><br>
+            <label for="pdate"> paasing year</label>
+            <input id="pdate" name="pdate" placeholder="year of passing " type="number">
+            <br><br>
+        </fieldset>
+        <br><br>
+        <button>subit form</button>
+
+
+
+    </fieldset>
+
+
+    </form>
+</body>
+
+</html>
